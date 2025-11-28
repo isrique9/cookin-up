@@ -19,15 +19,27 @@ defineEmits(["toggle"]);
 
 <style scoped>
 .ingredient-btn {
-  padding: 6px 12px;
+  padding: 6px 10px;
   border-radius: 10px;
-  background: #f4f4f4;
-  border: 1px solid #ddd;
+  background: var(--cinza-claro);
   cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
+
+.ingredient-btn:hover {
+  transform: scale(1.05);
+  background: var(--cinza-claro-hover);
+}
+
 .active {
-  background: #ff6b2c;
+  background: var(--coral);
   color: white;
-  border-color: #ff6b2c;
+  border-color: var(--coral);
+}
+
+.active:hover {
+  background: var(--coral-hover);
+  color: white;
+  border-color: var(--coral-hover);
 }
 </style>

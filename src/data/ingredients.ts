@@ -17,7 +17,7 @@ export const ingredientCategories = [
   },
   {
     title: "Temperos e Especiarias",
-    icon: "/icons/temperos.svg",
+    icon: "/icons/icone-especiarias.svg",
     items: [
       "Canela", "Cravo", "Orégano", "Tomilho", "Noz moscada",
       "Pimenta do Reino", "Cominho"
@@ -25,14 +25,14 @@ export const ingredientCategories = [
   },
   {
     title: "Óleos, Gorduras e Acetos",
-    icon: "/icons/oleos.svg",
+    icon: "/icons/icone-oleo.svg",
     items: [
       "Vinagre", "Óleo", "Dendê", "Azeite de Oliva", "Banha", "Aceto Balsâmico"
     ]
   },
   {
     title: "Hortaliças e Verduras",
-    icon: "/icons/verduras.svg",
+    icon: "/icons/icone-verduras.svg",
     items: [
       "Cebola", "Alho", "Tomate", "Abóbora", "Abobrinha",
       "Batata", "Pimentão", "Cenoura"
@@ -40,7 +40,7 @@ export const ingredientCategories = [
   },
   {
     title: "Açúcares e Adoçantes",
-    icon: "/icons/acucar.svg",
+    icon: "/icons/icone-acucar.svg",
     items: [
       "Açúcar branco", "Stevia", "Mel", "Melado",
       "Açúcar Mascavo", "Baunilha", "Xilitol", "Glicose"
@@ -48,7 +48,7 @@ export const ingredientCategories = [
   },
   {
     title: "Proteínas Animais",
-    icon: "/icons/proteinas.svg",
+    icon: "/icons/icone-proteina.svg",
     items: [
       "Carne Bovina", "Carne Suína", "Frango", "Bacon",
       "Presunto", "Calabresa", "Peixe", "Miúdos"
@@ -56,7 +56,7 @@ export const ingredientCategories = [
   },
   {
     title: "Grãos e Cereais",
-    icon: "/icons/graos.svg",
+    icon: "/icons/icone-graos.svg",
     items: [
       "Arroz", "Feijão", "Ervilha", "Lentilha", "Aveia", "Milho",
       "Grão de Bico", "Quinoa"
@@ -64,7 +64,7 @@ export const ingredientCategories = [
   },
   {
     title: "Frutas Frescas",
-    icon: "/icons/frutas.svg",
+    icon: "/icons/icone-frutas.svg",
     items: [
       "Banana", "Maçã", "Uva", "Pêra", "Limão", "Morango", "Ameixa",
       "Laranja", "Abacaxi", "Coco"
@@ -72,7 +72,7 @@ export const ingredientCategories = [
   },
   {
     title: "Frutas Secas",
-    icon: "/icons/frutassecas.svg",
+    icon: "/icons/icone-frutas-secas.svg",
     items: [
       "Castanha de Caju", "Damasco", "Castanha do Pará", 
       "Pistache", "Nozes", "Pinoli", "Amendoim"
@@ -80,7 +80,7 @@ export const ingredientCategories = [
   },
   {
     title: "Pães e Massas",
-    icon: "/icons/massas.svg",
+    icon: "/icons/icone-paes.svg",
     items: [
       "Pão", "Pão Sírio", "Tortilha", "Macarrão",
       "Nhoque", "Lasanha", "Broa", "Pastel"
@@ -88,7 +88,7 @@ export const ingredientCategories = [
   },
   {
     title: "Doces e Guloseimas",
-    icon: "/icons/doces.svg",
+    icon: "/icons/icone-sobremesas.svg",
     items: [
       "Doce de Leite", "Chocolate", "Chantilly",
       "Geleia", "Goiabada", "Caramelo", "Gelatina"

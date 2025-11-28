@@ -33,10 +33,8 @@ defineEmits(["toggle"]);
 <style scoped>
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
-}
-.icon {
-  width: 28px;
+  margin-bottom: 16px;
 }
 </style>

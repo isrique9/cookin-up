@@ -23,13 +23,20 @@ defineEmits(["remove"]);
 <style scoped>
 .selected-container {
   padding: 20px 0;
+  margin: 80px;
 }
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
+  margin-top: 24px;
 }
+
 h4 {
   color:var(--coral);
+  text-align: center;
+  font-size: 31px;
+  font-family: var(--font-family-padrao);
 }
 </style>
