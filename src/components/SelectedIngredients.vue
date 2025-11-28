@@ -1,0 +1,35 @@
+<template>
+  <div class="selected-container">
+    <h4>Sua lista:</h4>
+    <div class="tags">
+      <IngredientTag 
+        v-for="item in selected"
+        :key="item"
+        :name="item"
+        @remove="$emit('remove', item)"
+      />
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import IngredientTag from "./IngredientTag.vue";
+
+
+defineProps<{ selected: string[] }>();
+defineEmits(["remove"]);
+</script>
+
+<style scoped>
+.selected-container {
+  padding: 20px 0;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+h4 {
+  color:var(--coral);
+}
+</style>

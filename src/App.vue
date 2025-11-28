@@ -1,11 +1,14 @@
 <script lang="ts">
-import Banner from './components/Banner.vue';
+import Banner from "./components/Banner.vue";
 
 export default {
   components: { Banner }
-}
+};
 </script>
 
 <template>
   <Banner />
+
+  <!-- Onde as páginas serão carregadas -->
+  <router-view />
 </template>
