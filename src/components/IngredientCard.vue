@@ -32,7 +32,7 @@ defineEmits(["toggle"]);
 <style scoped>
 h3 {
   color: var(--verde-medio);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .card {

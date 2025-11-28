@@ -23,7 +23,7 @@ defineEmits(["remove"]);
 <style scoped>
 .selected-container {
   padding: 20px 0;
-  margin: 80px;
+  margin: 30px;
 }
 .tags {
   display: flex;

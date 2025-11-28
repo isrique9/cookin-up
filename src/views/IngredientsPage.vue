@@ -40,10 +40,12 @@ function toggleIngredient(item: string) {
 
 <style scoped>
 .container {
-  padding: 30px 40px;
+  padding: 10px 40px;
   background-color: var(--creme);
   border-radius: 60px;
+  height: 1200px;
 }
+
 .title {
   text-align: center;
   margin-bottom: 20px;
@@ -51,7 +53,7 @@ function toggleIngredient(item: string) {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 35px;
   font-family: var(--cabecalhos);
 }
 
